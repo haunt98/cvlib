@@ -1,3 +1,9 @@
 FROM python:3
 
-RUN pip install opencv-python tensorflow cvlib matplotlib
+RUN pip install opencv-python tensorflow cvlib
+
+WORKDIR /usr/src/app
+
+COPY main.py .
+
+CMD [ "python" , "main.py"]
