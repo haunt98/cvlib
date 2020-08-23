@@ -5,7 +5,7 @@ on:
     branches: [master]
 
 jobs:
-  storage:
+  docker:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
