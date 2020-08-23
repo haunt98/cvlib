@@ -1,0 +1,11 @@
+# Python
+venv
+
+# VSCode
+.vscode
+
+# Image
+*.png
+*.jpg
+*.jpeg
+*.text
