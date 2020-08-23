@@ -6,4 +6,4 @@ WORKDIR /usr/src/app
 
 COPY main.py .
 
-CMD [ "python" , "main.py"]
+CMD ["python", "main.py"]
