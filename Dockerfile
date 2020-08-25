@@ -5,5 +5,3 @@ RUN pip install opencv-python tensorflow cvlib
 WORKDIR /usr/src/app
 
 COPY main.py .
-
-CMD ["python", "main.py"]
