@@ -3,11 +3,3 @@ venv
 
 # VSCode
 .vscode
-
-# Image
-*.png
-*.jpg
-*.jpeg
-
-# Text
-*.txt
